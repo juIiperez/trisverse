@@ -1,0 +1,465 @@
+<html>
+    <head>
+        <title>Trisverse</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="x-icon" href="images/icon.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&family=Teko&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    </head>
+
+    <body>
+        <div id="home">
+            <div class="home-text">
+                <h1>Tris Universe</h1>
+            </div>
+        </div>
+
+        <div id="banner">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#aus">AUS</a></li>
+                        <li><a href="#characters">CHARACTERS</a></li>
+                        <li><a href="#gallery">GALLERY</a></li>
+                        <li><a href="#author">AUTHOR</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </div>
+        </div>
+
+        <div id="aus">
+            <div class="container">
+                <h1 class="subtitle">AUS</h1>
+                <div class="aulist">
+                    <div class="au">
+                        <img src="images/tsiwfy.png">
+                        <div class="layer">
+                            <h3>The Songs I Wrote for You</h3>
+                            <hr>
+                            <p>Ever since Calcifer (CY) met Madison (MN) on her band's gig, she has been writing and dedicating songs for her.</p>
+                            <a href="https://twitter.com/myouischaeng/status/1298841353321771008" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="au">
+                        <img src="images/isyiwa.png">
+                        <div class="layer">
+                            <h3>It's Still You I Write About</h3>
+                            <hr>
+                            <p> Four years later, a lot of things have changed. But Calcy has never stopped writing about Madi— and maybe, she has never stopped loving her.</p>
+                            <a href="https://twitter.com/myouischaeng/status/1344131139737284608" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="au">
+                        <img src="images/btc.png">
+                        <div class="layer">
+                            <h3>Behind the Camera</h3>
+                            <hr>
+                            <p>Student vlogger Stacey (Sana) starts to date basketball rookie star player Tobi (Tzuyu). The catch is, they have to act like bestfriends in her vlogs because Stacey's not out yet.</p>
+                            <a href="https://twitter.com/myouischaeng/status/1409508338711240716" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="au">
+                        <img src="images/htbac.png">
+                        <div class="layer">
+                            <h3>How to Break a Contract</h3>
+                            <hr>
+                            <p>Macky and Trisha comes clean about the hows and whys of their relationship and a contract that changed their lives forever.</p>
+                            <a href="https://twitter.com/myouischaeng/status/1514944162889490441" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="au">
+                        <img src="images/hs.png">
+                        <div class="layer">
+                            <h3>Hi, Seatmate!</h3>
+                            <hr>
+                            <p>As a new semester rolls in, a new seating arrangement has been prepared for 12-Einstein. against her wishes, Nayeon is seated beside Jeongyeon.</p>
+                            <a href="https://twitter.com/myouischaeng/status/1639599560946491393" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="characters">
+                <div class="container">
+                    <h1 class="subtitle">CHARACTERS</h1>
+                    <div class="au-tab">
+                        <p class="character-tabs active-link" onclick="opentab('tsiwfy')">TSIWFY</p>
+                        <p class="character-tabs" onclick="opentab('btc')">BTC</p>
+                        <p class="character-tabs" onclick="opentab('hs')">HS</p>
+                    </div>
+                    <hr>
+                    <div class="au-characters active-tab" id="tsiwfy">
+                        <h1>The Songs I Wrote for You</h1>
+                        <div class="character-image">
+                            <div class="single-character">
+                                <img src="images/calcy.png">
+                                <div class="info">
+                                    <h3>Calcifer Santos</h3>
+                                    <a href="https://twitter.com/calcysantos_" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/madi.png">
+                                <div class="info">
+                                    <h3>Madison Mendoza</h3>
+                                    <a href="https://twitter.com/_Madisonmendoza" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/jade.png">
+                                <div class="info">
+                                    <h3>Jade Fuentes</h3>
+                                    <a href="https://twitter.com/jdfuentes_" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/niana.png">
+                                <div class="info">
+                                    <h3>Niana Ibañez</h3>
+                                    <a href="https://twitter.com/ibanezniana" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/macky.png">
+                                <div class="info">
+                                    <h3>Mackenzie Hernandez</h3>
+                                    <a href="https://twitter.com/_mackyyyhrndz" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/trish.png">
+                                <div class="info">
+                                    <h3>Trisha Collantes</h3>
+                                    <a href="https://twitter.com/trishcollantes" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/dom.png">
+                                <div class="info">
+                                    <h3>Dominique Riego</h3>
+                                    <a href="https://twitter.com/riegodominique" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/scar.png">
+                                <div class="info">
+                                    <h3>Scarlett Magno</h3>
+                                    <a href="https://twitter.com/_scarmagno" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/juli.png">
+                                <div class="info">
+                                    <h3>Juliana Perez</h3>
+                                    <a href="https://twitter.com/juIiperez" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/danny.png">
+                                <div class="info">
+                                    <h3>Danny Dominguez</h3>
+                                    <a href="https://twitter.com/dominguez_dn" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/riley.png">
+                                <div class="info">
+                                    <h3>Riley Santos</h3>
+                                    <a href="https://twitter.com/_RileySantos" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/olive.png">
+                                <div class="info">
+                                    <h3>Olive Mendoza</h3>
+                                    <a href="https://twitter.com/olive_mndz" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="au-characters" id="btc">
+                        <h1>Behind the Camera</h1>
+                        <div class="character-image">
+                            <div class="single-character">
+                                <img src="images/stacey.png">
+                                <div class="info">
+                                    <h3>Stacey Hope Sotto</h3>
+                                    <a href="https://twitter.com/stacehsotto" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/tobi.png">
+                                <div class="info">
+                                    <h3>Tobi Ramirez</h3>
+                                    <a href="https://twitter.com/_TobiRamirez" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/mel.png">
+                                <div class="info">
+                                    <h3>Melody Calderon</h3>
+                                    <a href="https://twitter.com/calderonmeII" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/jacq.png">
+                                <div class="info">
+                                    <h3>Jacqueline Aquino</h3>
+                                    <a href="https://twitter.com/Jac_qlin" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/nadz.png">
+                                <div class="info">
+                                    <h3>Nadine Halili</h3>
+                                    <a href="https://twitter.com/nadzhalili" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/clo.png">
+                                <div class="info">
+                                    <h3>Clover De Los Santos</h3>
+                                    <a href="https://twitter.com/cloverdsaints" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/deb.png">
+                                <div class="info">
+                                    <h3>Debbie Gonzales</h3>
+                                    <a href="https://twitter.com/gotdgondtrack" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/jill.png">
+                                <div class="info">
+                                    <h3>Jill Francisco</h3>
+                                    <a href="https://twitter.com/jillfransisco44" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/jax.png">
+                                <div class="info">
+                                    <h3>Jax Ramirez</h3>
+                                    <a href="https://twitter.com/ajax_ramirez" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="au-characters" id="hs">
+                        <h1>Hi, Seatmate!</h1>
+                        <div class="character-image">
+                            <div class="single-character">
+                                <img src="images/jy.png">
+                                <div class="info">
+                                    <h3>Jeongyeon Ayala</h3>
+                                    <a href="https://twitter.com/ayala_jy" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/ny.png">
+                                <div class="info">
+                                    <h3>Nayeon Villaverde</h3>
+                                    <a href="https://twitter.com/nayeonvlvrd" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/cy.png">
+                                <div class="info">
+                                    <h3>Chaeyoung Santos</h3>
+                                    <a href="https://twitter.com/shtchaeyoung" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/irene.png">
+                                <div class="info">
+                                    <h3>Irene Sarmiento</h3>
+                                    <a href="https://twitter.com/renesarmiento_" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/jisoo.png">
+                                <div class="info">
+                                    <h3>Jisoo Morales</h3>
+                                    <a href="https://twitter.com/soorales" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/jennie.png">
+                                <div class="info">
+                                    <h3>Jennie Castillo</h3>
+                                    <a href="https://twitter.com/jnn_cstll" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/sana.png">
+                                <div class="info">
+                                    <h3>Sana Umali</h3>
+                                    <a href="https://twitter.com/snuml_" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="single-character">
+                                <img src="images/lisa.png">
+                                <div class="info">
+                                    <h3>Lisa Alvarez</h3>
+                                    <a href="https://twitter.com/alvrzlisa" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="gallery">
+                <div class="container">
+                    <h1 class="subtitle">GALLERY</h1>
+                    <div class="photo-row">
+                        <div class="photo-column">
+                            <img src="images/1.jpg">
+                            <img src="images/2.jpg">
+                            <img src="images/3.jpg">
+                            <img src="images/4.jpg">
+                            <img src="images/5.jpg">
+                            <img src="images/6.jpg">
+                            <img src="images/7.jpg">
+                            <img src="images/8.jpg">
+                        </div>
+                        <div class="photo-column">
+                            <img src="images/11.jpg">
+                            <img src="images/12.jpg">
+                            <img src="images/13.jpg">
+                            <img src="images/14.jpg">
+                            <img src="images/15.jpg">
+                            <img src="images/16.jpg">
+                            <img src="images/17.jpg">
+                            <img src="images/18.jpg">
+                            <img src="images/19.jpg">
+                            <img src="images/20.jpg">
+                            <img src="images/30.jpg">
+                        </div>
+                        <div class="photo-column">
+                            <img src="images/21.jpg">
+                            <img src="images/22.jpg">
+                            <img src="images/23.jpg">
+                            <img src="images/24.jpg">
+                            <img src="images/25.jpg">
+                            <img src="images/26.jpg">
+                            <img src="images/27.jpg">
+                            <img src="images/28.jpg">
+                            <img src="images/29.jpg">
+                        </div>
+                        <div class="photo-column">
+                            <img src="images/31.jpg">
+                            <img src="images/32.jpg">
+                            <img src="images/33.jpg">
+                            <img src="images/34.jpg">
+                            <img src="images/35.jpg">
+                            <img src="images/36.jpg">
+                            <img src="images/39.jpg">
+                            <img src="images/40.jpg">
+                            <img src="images/9.jpg">
+                            <img src="images/10.jpg">
+                        </div>
+                        <div class="photo-column">
+                            <img src="images/41.jpg">
+                            <img src="images/42.jpg">
+                            <img src="images/43.jpg">
+                            <img src="images/44.jpg">
+                            <img src="images/45.jpg">
+                            <img src="images/46.jpg">
+                            <img src="images/47.jpg">
+                            <img src="images/48.jpg">
+                            <img src="images/49.jpg">
+                            <img src="images/50.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="author">
+                <div class="container">
+                    <h1 class="subtitle">AUTHOR</h1>
+                    <div class="authorbox">
+                        <img src="images/ma.png" class="authorimg">
+                        <h3>Tris (@myouischaeng)</h3>
+                        <div class="twitter-follow-button">
+                            <a href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fpublish.twitter.com%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Efollow%7Ctwgr%5Emyouischaeng&screen_name=myouischaeng" target="_blank"><i class="fa-brands fa-twitter"></i>Follow</a>
+                        </div>
+                    </div>
+
+                    <div class="social-icons">
+                        <a href="https://twitter.com/ROUTE4__" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://discord.gg/a63MqK2X8Y" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                        <a href="https://telegram.me/tsiwfybarda" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="https://open.spotify.com/user/lbfn9x7ss62cs3lc9gv3e1fhf?si=48dde5f00fd54497" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+                    </div>
+                </div>
+            </div>
+       
+            <script>
+                var charactertabs = document.getElementsByClassName("character-tabs");
+                var aucharacters = document.getElementsByClassName("au-characters");
+
+                function opentab(tabname){
+                    for(charactertab of charactertabs){
+                        charactertab.classList.remove("active-link");
+                    }
+                    for(aucharacter of aucharacters){
+                        aucharacter.classList.remove("active-tab");
+                    }
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab")
+                }
+
+                var scroll = new SmoothScroll('a[href*="#"]', {
+                    speed: 500,
+                    speedAsDuration: true
+                });
+
+                var sidemenu = document.getElementById('sidemenu')
+
+                function openmenu(){
+                    sidemenu.style.right = "0";
+                }
+                function closemenu(){
+                    sidemenu.style.right = "-200px"
+                }
+            </script>
+           
+    </body>
+</html>
