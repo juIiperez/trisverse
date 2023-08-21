@@ -504,7 +504,7 @@ hr{
 
 .twitter-follow-button a:hover{
     background: #fff;
-    color: #000;
+    color: #eb58ba;
     transition: 0.5s;
 }
 
@@ -526,7 +526,7 @@ hr{
 
 .social-icons i:hover{
     background: #fff;
-    color: #000;
+    color: #eb58ba;
     transform: translateY(-7px);
 }
 
